@@ -14,27 +14,40 @@
             <div class="logo">MARQEX<span>1</span></div>
             <ul>
                 <li><a href="#">الرئيسية</a></li>
-                <li><a href="#">خدماتنا</a></li>
-                <li><a href="#">أعمالنا</a></li>
+                <li><a href="#portfolio">أعمالنا</a></li>
                 <li class="cta-btn"><a href="https://wa.me/201019139578">احجز عرضك المجاني</a></li>
             </ul>
         </nav>
     </header>
 
     <section class="hero">
-        <div class="hero-content" data-aos="fade-up">
-            <h1>نصنع لك <span class="highlight">هوية</span> تسيطر على السوق</h1>
-            <p>ماركيكس هي شريكك الأول للتحول الرقمي، نبدأ معك من الصفر وحتى القمة.</p>
-            <div class="btns">
-                <a href="#" class="main-btn">ابدأ الآن</a>
-                <a href="#" class="sec-btn">عرض أعمالنا</a>
-            </div>
+        <div class="hero-content" data-aos="zoom-in">
+            <h1>نصنع لك <span class="highlight">هوية</span> تسيطر بها على السوق</h1>
+            <p>ماركيكس هي شريكك الأول للتحول الرقمي وصناعة المحتوى الإبداعي.</p>
+            <a href="https://wa.me/201019139578" class="main-btn">ابدأ حملتك المجانية الآن</a>
         </div>
     </section>
 
-    <script src="https://unpkg.com/aos@next/dist/dist/aos.js"></script>
-    <script>
-      AOS.init({ duration: 1000, once: true });
-    </script>
+    <section class="video-section" data-aos="fade-up">
+        <h2>شاهد كيف نغير قواعد اللعبة 🎬</h2>
+        <div class="video-container">
+            <video controls poster="hero-bg.jpg">
+                <source src="promo-video.mp4" type="video/mp4">
+                متصفحك لا يدعم تشغيل الفيديو.
+            </video>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2 data-aos="fade-up">معرض أعمالنا (سيطرة)</h2>
+        <div class="grid">
+            <div class="card" data-aos="flip-left"><img src="design1.jpg" alt="Design 1"></div>
+            <div class="card" data-aos="flip-left"><img src="design2.jpg" alt="Design 2"></div>
+            <div class="card" data-aos="flip-left"><img src="design3.jpg" alt="Design 3"></div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init({ duration: 1200 });</script>
 </body>
 </html>
